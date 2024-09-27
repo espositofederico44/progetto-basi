@@ -1,0 +1,2 @@
+# Escludo tutti i file e le sottocartelle dentro la cartella 'conf'
+conf/

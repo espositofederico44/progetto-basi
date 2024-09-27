@@ -1,0 +1,36 @@
+body { font-family: Arial, sans-serif; }
+
+.testo-campo-obbligatorio {
+  font-size: 85%;
+  font-style: italic;
+  color: #e74c3c;
+}
+
+span.required {
+  color: #e74c3c !important;
+  margin-left: 5px !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+
+.card {
+  transition: background-color 0.3s, color 0.3s !important; /* Add smooth transition for background and text color */
+}
+
+.card:hover {
+  background-color: rgb(13,110,253)!important; /* Background color on hover */
+  color: white !important; /* Text color on hover */
+}
+
+.card a {
+  color: inherit !important; /* Ensure the link uses the current text color */
+}
+
+.pointer{
+  cursor: pointer !important;
+}
+
+table .center {
+  text-align: center!important;
+  vertical-align: middle!important;
+}
